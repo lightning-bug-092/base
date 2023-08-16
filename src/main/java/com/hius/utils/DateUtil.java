@@ -789,7 +789,7 @@ public final class DateUtil {
             try {
                 return format.parse(date);
             } catch (ParseException e) {
-                e.printStackTrace();
+                logger.error(ExceptionUtils.getStackTrace(e));
             }
         }
         return null;
