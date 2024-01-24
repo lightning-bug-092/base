@@ -136,6 +136,7 @@ public class GeneratedCriteria {
                 .append(fromBuilder).append(" ")
                 .append(joinBuilder).append(" ")
                 .append(whereBuilder).append(" ")
+                .append(orderByBuilder).append(" ")
                 .append(limitBuilder);
         return builder.toString();
     }
